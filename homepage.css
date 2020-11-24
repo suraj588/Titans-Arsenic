@@ -1,0 +1,124 @@
+.header {
+    position: fixed;
+    background-color: white;
+    max-width:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    
+ }
+ .header_container {
+     display: flex;
+     align-items: center;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-left: 100px;
+ }
+ .header_nav {
+     display: flex;
+     align-items: center;
+ }
+ .menu_nav {
+     display: flex;
+     width: 800px;
+     margin-left: 250px;
+     margin-right: 20px;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .menu_nav_bloc {
+     display: block;
+     font-size: 12px;
+     font-weight:bolder;
+     text-align: center;
+     
+ }
+ .button{
+ border: 1px solid black;
+ border-radius: 36px;
+ width: 100px;
+ height: 30px; 
+ background-color: gold;
+ padding-top: 10px;
+ }
+ .menu_nav_bloc_text {
+     display: inline-block;
+     position: relative;
+     
+ }
+ .intro_box{
+     font-family: 'Roboto', sans-serif;
+ }
+ .intro {
+     padding-top: 150px;
+     display: flex;
+ }
+ .intro_container {
+     margin-right: 20px;
+     margin-left: 100px;
+     padding-top: 10px;
+     width: 450px;
+ }
+ .signup_button{
+     height: 20px;
+     width: 100px;
+     background-color: gold;
+     padding: 15px;
+     border-radius: 30px;
+     font-weight: 700;
+     margin-top: 30px;
+
+ }
+ .promo { 
+     display: flex;
+     min-height: 400px;
+     margin-top: -98px;
+     justify-content: center;
+     align-items: center;
+     background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEzOSIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik01OTQuMzY3IDY2LjIxOWMxNjkuODgxIDAgMzcyLjg3My05NS40NTggNjM2LjM3NC01Ni4wOSAxNjguMTY4IDI1LjEyNCAzODAuMjg5IDM3LjA5OCA1NjAuOTU2IDI5LjA3OCAxNTcuMzUtNi45ODYgMjkxLjAwMy0zMi44IDM0OC4zMDMtMzIuOHYzOTMuMDA1Yy04OS4wMTUtLjAwMi0yNTMuMzM4LTYxLjc5NS0zNDguMzAzLTYxLjc5NS0xNzUuNzM1IDAtMjQwLjAyMiAzMy43Ny00NDMuMDA3IDUwLjkxLTI5Ny45MDEgMjUuMTU1LTU0OC4yMTQtNjEuNzM1LTcyNi4yNjItNjEuNzM1LTM4OC41NzIgMC01MTIuNjk4IDcyLjU5LTYyMi40MDEgNzIuNTlDLjAyNyAyNDIuMTI2IDAgODQuNjc2IDAgNi40MDhjMTk4LjU4NiAwIDM5OS4xOTcgNTkuODEyIDU5NC4zNjcgNTkuODEyeiIgZmlsbD0iI0RDQkFGRiIgLz48L3N2Zz4K) no-repeat 50%;
+     background-repeat: no-repeat center center fixed;
+
+     
+ }
+ .promo_text {
+     display: block;
+     max-width: 860px;
+     font-size: 35px;
+     line-height: 1.25;
+     letter-spacing: -.1px;
+     text-align: center;
+ }
+
+ .easy_setup {
+     padding-top: 80px;
+     max-width: 1100px;
+     margin-left: 100px;
+     font-family: 'Roboto', sans-serif;
+ }
+ .easy_setup_intro_container {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     align-items: center;
+     
+ }
+ .easy_setup_intro_title {
+     max-width: 240px;
+     margin-right: 50px;
+     float: left;
+ }
+ .setup_steps {
+     width: 62%;
+     padding-bottom: 30px;
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 45px;
+     max-width: 1366px;
+     float: right;
+     margin-left: 50px;
+ }
+ .easy_setup_presentation {
+     margin-top: 95px;
+     margin-bottom: 82px;
+ }

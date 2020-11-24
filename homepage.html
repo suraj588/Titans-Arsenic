@@ -1,113 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <titie></titie>
-        <style>
-            body > {
-                font-family: Poppins,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
-                font-size: 14px;
-            }
-            .header {
-               position: fixed;
-               background-color: white;
-               max-width: 1366px;
-               top: 0;
-               
-            }
-            .header_container {
-                display: flex;
-                align-items: center;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                margin-left: 100px;
-            }
-            .header_nav {
-                display: flex;
-                align-items: center;
-            }
-            .menu_nav {
-                display: flex;
-                width: 800px;
-                margin-left: 250px;
-                margin-right: 20px;
-                align-items: center;
-                justify-content: space-around;
-            }
-            .menu_nav_bloc {
-                display: block;
-                font-size: 12px;
-                font-weight:bolder;
-                text-align: center;
-            }
-            .menu_nav_bloc_text {
-                display: inline-block;
-                position: relative;
-                
-            }
-            .page_content {
-                max-width: 1366px;
-                display:flex;
-                flex-direction: column;
-
-            }
-            .intro {
-                margin-left: 100px;
-                padding-top: 150px;
-            }
-            .intro_container {
-                float: left;
-                margin-right: 100px;
-                padding-top: 10px;
-            }
-            .promo { 
-                display: flex;
-                position: relative;
-                min-height: 400px;
-                margin-top: -98px;
-                justify-content: center;
-                align-items: center;
-            }
-            .promo_text {
-                display: block;
-                max-width: 860px;
-                font-size: 35px;
-                line-height: 1.25;
-                letter-spacing: -.1px;
-                text-align: center;
-            }
-
-            .easy_setup {
-                padding-top: 80px;
-                max-width: 900px;
-                margin-left: 250px;
-            }
-            .easy_setup_intro_container {
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row;
-                align-items: center;
-            }
-            .easy_setup_intro_title {
-                max-width: 240px;
-                margin-right: 50px;
-                float: left;
-            }
-            .setup_steps {
-                width: 62%;
-                padding-bottom: 30px;
-                display: flex;
-                justify-content: space-between;
-                padding-bottom: 45px;
-                max-width: 1366px;
-                float: right;
-            }
-            .easy_setup_presentation {
-                position: relative;
-                margin-top: 95px;
-                margin-bottom: 82px;
-            }
-
-        </style>
+        <link rel="stylesheet" href="homepage.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <titie>homepage</titie>
     </head>
     <body>
 
@@ -155,14 +52,14 @@
                             </a>
                         </div>
                         <div>
-                            <a class="menu_nav_bloc" style="border: 1px solid black; border-radius: 36px; width: 100px; height: 30px; background-color: gold; padding-top: 10px;">
+                            <a class="menu_nav_bloc button">
                                 <div class="menu_nav_bloc_text"> 
                                     Log In
                                 </div>
                             </a>
                         </div>
                         <div>
-                            <a class="menu_nav_bloc" style="border: 1px solid black; border-radius: 36px; width: 100px; height: 30px;background-color: gold; padding-top: 10px;">
+                            <a class="menu_nav_bloc button" >
                                 <div class="menu_nav_bloc_text"> 
                                     Sign up
                                 </div>
@@ -170,66 +67,67 @@
                         </div>
                     </div>
                 </nav>
-            </div>
+                </div>
         </header>
 
         <!--Upper introduction part start from here-->
-        <main class="page_content">
+        <div class="intro_box">
             <div class="intro">
                 <div class="intro_container">
-                    <div class="intro_discription">
-                        <h1 class="intro_title">Safe Email Testing for<br> Staging & Development</h1>
-                        <p class="intro_description_text">Inspect and debug your email samples before<br> delivering them to your customers.</p>
-                        <div class="intro_lower">
-                            <a class="intro_singup_button">Sign Up Now</a>
+                    <div>
+                        <h1>Safe Email Testing for<br> Staging & Development</h1>
+                        <p>Inspect and debug your email samples before<br> delivering them to your customers.</p>
+                        <div>
+                            <div class="signup_button">Sign Up Now</div>
                             <!--viedo play button left here--> 
                         </div>
                     </div>
                 </div>
-                <div class="cartoon_container">
-                    <picture class="intro_cartoon"> 
-                        <img src="https://mailtrap.io/packs/assets/landing/intro-schema-desktop-dc27bb610676011e1220886af7a0d13f.svg" alt="intro_cartoon">
-                    </picture>
+                <div>
+                    <div> 
+                        <img src="https://mailtrap.io/packs/assets/landing/intro-schema-desktop-dc27bb610676011e1220886af7a0d13f.svg" alt="introcartoon">
+                    </div>
                 </div>
+                
             </div>
-
-            <!--second section start from here-->
-            <div class="promo" style="background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEzOSIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik01OTQuMzY3IDY2LjIxOWMxNjkuODgxIDAgMzcyLjg3My05NS40NTggNjM2LjM3NC01Ni4wOSAxNjguMTY4IDI1LjEyNCAzODAuMjg5IDM3LjA5OCA1NjAuOTU2IDI5LjA3OCAxNTcuMzUtNi45ODYgMjkxLjAwMy0zMi44IDM0OC4zMDMtMzIuOHYzOTMuMDA1Yy04OS4wMTUtLjAwMi0yNTMuMzM4LTYxLjc5NS0zNDguMzAzLTYxLjc5NS0xNzUuNzM1IDAtMjQwLjAyMiAzMy43Ny00NDMuMDA3IDUwLjkxLTI5Ny45MDEgMjUuMTU1LTU0OC4yMTQtNjEuNzM1LTcyNi4yNjItNjEuNzM1LTM4OC41NzIgMC01MTIuNjk4IDcyLjU5LTYyMi40MDEgNzIuNTlDLjAyNyAyNDIuMTI2IDAgODQuNjc2IDAgNi40MDhjMTk4LjU4NiAwIDM5OS4xOTcgNTkuODEyIDU5NC4zNjcgNTkuODEyeiIgZmlsbD0iI0RDQkFGRiIgLz48L3N2Zz4K) no-repeat 50%;"> 
+            <div class="promo">
                 <h2 class="promo_text">
                     Whether you are developer, QA, or PM,<br> Mailtrap has the
-                    <span class="text_highlight">tools for you</span>
+                    tools for you
                     to help<br> building great email functionality
                 </h2>
             </div>
-
+        </div>
+            
             <!--third section start from here-->
-            <div class="easy_setup_main_container">
-                <div class="easy_setup">
-                    <div class="easy_setup_intro_conatiner">
-                        <h1 class="easy_setup_intro_title">Mailtrap Setup is Easy</h1>
-                        <div class="setup_steps">
-                            <div class="step_initial">
-                                <div class="step_image">
-                                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgZmlsbD0iI0ZGRiIgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIi8+PHBhdGggZD0iTTEzIDMzLjg3NWg3LjI1bDMuMDgzIDQuNjI1aDEyLjMzNGwzLjA4My00LjYyNUg0NmEyIDIgMCAwIDEgMiAydjE2LjA0MmEyIDIgMCAwIDEtMiAySDEzYTIgMiAwIDAgMS0yLTJWMzUuODc1YTIgMiAwIDAgMSAyLTJ6IiBmaWxsPSIjNUFGRkRGIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNMzMuNTUzIDMwLjM3NUwzMC40NjkgMzVIMTYuNTMxbC0zLjA4NC00LjYyNUg3YS41LjUgMCAwIDAtLjUuNXYxNi4wNDJhLjUuNSAwIDAgMCAuNS41aDMzYS41LjUgMCAwIDAgLjUtLjVWMzAuODc1YS41LjUgMCAwIDAtLjUtLjVoLTYuNDQ3eiIgc3Ryb2tlPSIjNEE0QTRBIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMzUgNWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTFWNmExIDEgMCAwIDEgMS0xem0xMS41IDExLjV2MWExIDEgMCAwIDEtMSAxaC01YTEgMSAwIDAgMS0xLTF2LTFhMSAxIDAgMCAxIDEtMWg1YTEgMSAwIDAgMSAxIDF6bS0zLjIwNy03Ljc5OGwuNjcuNzQ0YTEgMSAwIDAgMS0uMDc0IDEuNDEybC0zLjcxNiAzLjM0NmExIDEgMCAwIDEtMS40MTItLjA3NGwtLjY3LS43NDRhMSAxIDAgMCAxIC4wNzQtMS40MTJsMy43MTYtMy4zNDZhMSAxIDAgMCAxIDEuNDEyLjA3NHoiIGZpbGw9IiM0QTRBNEEiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik0xMy4wNjggMTYuMDUyQTEuNSAxLjUgMCAwIDEgMTQuNSAxNWgxOGExLjUgMS41IDAgMCAxIDEuNDMyIDEuMDUybDcuODY3IDEzLjYyNmExLjUgMS41IDAgMSAxLTIuNTk4IDEuNUwzMS41OTMgMThIMTUuNDA3TDcuOCAzMS4xNzhhMS41IDEuNSAwIDEgMS0yLjU5OC0xLjVsNy44NjctMTMuNjI2eiIgZmlsbD0iIzRBNEE0QSIvPjwvZz48L3N2Zz4=" alt="img1">
-                                </div>
-                                <p class="step_text">Click Your Demo<br>Inbox</p>
-                            </div>
-                            <div class="step_initial_">
-                                <div class="step_image_">
-                                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIiBmaWxsPSIjRkZGIi8+PGcgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMjIuNjQ4IDIyaDI2LjcxM2EzIDMgMCAwIDEgMi40NyAxLjI5N2w4Ljk3OCAxMy4wMjJhMyAzIDAgMCAxLS4wMjIgMy40MzhsLTguOTU0IDEyLjYzYTMgMyAwIDAgMS0yLjQ0NyAxLjI2NWgtMjYuNzhhMyAzIDAgMCAxLTIuNDQtMS4yNTNsLTguOTQ0LTEyLjQ4N2EzIDMgMCAwIDEtLjAzOS0zLjQzOWw4Ljk4OC0xMy4xNjVBMyAzIDAgMCAxIDIyLjY0OCAyMnoiIGZpbGw9IiNEQ0JBRkYiLz48cGF0aCBkPSJNMjEuMzA4IDM4LjA3N2EyLjMwOCAyLjMwOCAwIDEgMSAwLTQuNjE1IDIuMzA4IDIuMzA4IDAgMCAxIDAgNC42MTV6bTcuNjkyIDBhMi4zMDggMi4zMDggMCAxIDEgMC00LjYxNSAyLjMwOCAyLjMwOCAwIDAgMSAwIDQuNjE1em03LjY5MiAwYTIuMzA4IDIuMzA4IDAgMSAxIDAtNC42MTUgMi4zMDggMi4zMDggMCAwIDEgMCA0LjYxNXoiIGZpbGw9IiNGRkYiLz48cGF0aCBkPSJNMTguMzA4IDM2LjA3N2EyLjMwOCAyLjMwOCAwIDEgMSAwLTQuNjE1IDIuMzA4IDIuMzA4IDAgMCAxIDAgNC42MTV6bTcuNjkyIDBhMi4zMDggMi4zMDggMCAxIDEgMC00LjYxNSAyLjMwOCAyLjMwOCAwIDAgMSAwIDQuNjE1em03LjY5MiAwYTIuMzA4IDIuMzA4IDAgMSAxIDAtNC42MTUgMi4zMDggMi4zMDggMCAwIDEgMCA0LjYxNXpNNDYgNWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTFWNmExIDEgMCAwIDEgMS0xem0xMS41IDExLjV2MWExIDEgMCAwIDEtMSAxaC01YTEgMSAwIDAgMS0xLTF2LTFhMSAxIDAgMCAxIDEtMWg1YTEgMSAwIDAgMSAxIDF6bS0zLjIwNy03Ljc5OGwuNjcuNzQ0YTEgMSAwIDAgMS0uMDc0IDEuNDEybC0zLjcxNiAzLjM0NmExIDEgMCAwIDEtMS40MTItLjA3NGwtLjY3LS43NDRhMSAxIDAgMCAxIC4wNzQtMS40MTJsMy43MTYtMy4zNDZhMSAxIDAgMCAxIDEuNDEyLjA3NHoiIGZpbGw9IiM0QTRBNEEiLz48L2c+PHBhdGggZD0iTTQuNjEgMzMuMzY0bDkuODAzIDEzLjAxYTEuNzUgMS43NSAwIDEgMS0yLjc5NSAyLjEwNkwxLjA4NyAzNC41MDRhMS43NDMgMS43NDMgMCAwIDEtLjM1LTEuMTRjLS4wMi0uMzk2LjA5My0uOC4zNS0xLjE0bDEwLjUzMS0xMy45NzdhMS43NSAxLjc1IDAgMSAxIDIuNzk1IDIuMTA3TDQuNjEgMzMuMzY0eiIgZmlsbD0iIzRBNEE0QSIvPjxwYXRoIGQ9Ik01MC44OSAzMy4zNjRsLTkuODAzIDEzLjAxYTEuNzUgMS43NSAwIDEgMCAyLjc5NSAyLjEwNmwxMC41MzEtMTMuOTc2Yy4yNTctLjM0LjM3LS43NDUuMzUtMS4xNC4wMi0uMzk2LS4wOTMtLjgtLjM1LTEuMTRMNDMuODgyIDE4LjI0NmExLjc1IDEuNzUgMCAxIDAtMi43OTUgMi4xMDdsOS44MDMgMTMuMDF6IiBmaWxsPSIjRkZGIi8+PHBhdGggZD0iTTQ3Ljg5IDMzLjM2NGwtOS44MDMgMTMuMDFhMS43NSAxLjc1IDAgMSAwIDIuNzk1IDIuMTA2bDEwLjUzMS0xMy45NzZjLjI1Ny0uMzQuMzctLjc0NS4zNS0xLjE0LjAyLS4zOTYtLjA5My0uOC0uMzUtMS4xNEw0MC44ODIgMTguMjQ2YTEuNzUgMS43NSAwIDEgMC0yLjc5NSAyLjEwN2w5LjgwMyAxMy4wMXoiIGZpbGw9IiM0QTRBNEEiLz48L2c+PC9zdmc+Cg==" alt="img1">
-                                </div>
-                                <p class="step_text">Copy / Paste<br>Your<br>Configuration</p>
-                            </div>
-                            <div class="step_initial_">
-                                <div class="step_image_">
-                                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgZmlsbD0iI0ZGRiIgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIi8+PHJlY3QgZmlsbD0iI0ZGRTU0QyIgeD0iMTAuMDQiIHk9IjI3LjA0IiB3aWR0aD0iMzYuOTYiIGhlaWdodD0iMjYuODgiIHJ4PSIzIi8+PHBhdGggZD0iTTEyLjM3NyAyNy4zOTlsMTIuNjMgNy40MzRhMS4yNyAxLjI3IDAgMCAxIC40MzMgMS43NjggMS4zNCAxLjM0IDAgMCAxLTEuODE1LjQ0NGwtMTIuNjMtNy40MzRhMS4yNyAxLjI3IDAgMCAxLS40MzMtMS43NjggMS4zNCAxLjM0IDAgMCAxIDEuODE1LS40NDR6IiBmaWxsPSIjNEE0QTRBIi8+PHBhdGggZD0iTTM2LjA5NSAyNy4yNjJsLTExLjkyNiA3Ljc4NGExLjM4NCAxLjM4NCAwIDAgMC0uNDE3IDEuODkyIDEuMzMgMS4zMyAwIDAgMCAxLjg1NS40MWwxMS45MjYtNy43ODVhMS4zODQgMS4zODQgMCAwIDAgLjQxNy0xLjg5MiAxLjMzIDEuMzMgMCAwIDAtMS44NTUtLjQxeiIgZmlsbD0iIzRBNEE0QSIvPjxyZWN0IHN0cm9rZT0iIzRBNEE0QSIgc3Ryb2tlLXdpZHRoPSIzIiB4PSI2LjUiIHk9IjIzLjUiIHdpZHRoPSIzMy45NiIgaGVpZ2h0PSIyMy44OCIgcng9IjIiLz48cGF0aCBkPSJNNDMgOWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTF2LTVhMSAxIDAgMCAxIDEtMXptMTEuNSAxMS41djFhMSAxIDAgMCAxLTEgMWgtNWExIDEgMCAwIDEtMS0xdi0xYTEgMSAwIDAgMSAxLTFoNWExIDEgMCAwIDEgMSAxem0tMy4yMDctNy43OThsLjY3Ljc0NGExIDEgMCAwIDEtLjA3NCAxLjQxMmwtMy43MTYgMy4zNDZhMSAxIDAgMCAxLTEuNDEyLS4wNzRsLS42Ny0uNzQ0YTEgMSAwIDAgMSAuMDc0LTEuNDEybDMuNzE2LTMuMzQ2YTEgMSAwIDAgMSAxLjQxMi4wNzR6IiBmaWxsPSIjNEE0QTRBIi8+PC9nPjwvc3ZnPg==" alt="img1">
-                                </div>
-                                <p class="step_text">Collect dev<br>emails into<br>Mailtrap inbox</p>
-                            </div>
+        
+        <div class="easy_setup">
+            <div class="easy_setup_intro_conatiner">
+                <h1 class="easy_setup_intro_title">Mailtrap Setup is Easy</h1>
+                <div class="setup_steps">
+                    <div>
+                        <div>
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgZmlsbD0iI0ZGRiIgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIi8+PHBhdGggZD0iTTEzIDMzLjg3NWg3LjI1bDMuMDgzIDQuNjI1aDEyLjMzNGwzLjA4My00LjYyNUg0NmEyIDIgMCAwIDEgMiAydjE2LjA0MmEyIDIgMCAwIDEtMiAySDEzYTIgMiAwIDAgMS0yLTJWMzUuODc1YTIgMiAwIDAgMSAyLTJ6IiBmaWxsPSIjNUFGRkRGIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNMzMuNTUzIDMwLjM3NUwzMC40NjkgMzVIMTYuNTMxbC0zLjA4NC00LjYyNUg3YS41LjUgMCAwIDAtLjUuNXYxNi4wNDJhLjUuNSAwIDAgMCAuNS41aDMzYS41LjUgMCAwIDAgLjUtLjVWMzAuODc1YS41LjUgMCAwIDAtLjUtLjVoLTYuNDQ3eiIgc3Ryb2tlPSIjNEE0QTRBIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMzUgNWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTFWNmExIDEgMCAwIDEgMS0xem0xMS41IDExLjV2MWExIDEgMCAwIDEtMSAxaC01YTEgMSAwIDAgMS0xLTF2LTFhMSAxIDAgMCAxIDEtMWg1YTEgMSAwIDAgMSAxIDF6bS0zLjIwNy03Ljc5OGwuNjcuNzQ0YTEgMSAwIDAgMS0uMDc0IDEuNDEybC0zLjcxNiAzLjM0NmExIDEgMCAwIDEtMS40MTItLjA3NGwtLjY3LS43NDRhMSAxIDAgMCAxIC4wNzQtMS40MTJsMy43MTYtMy4zNDZhMSAxIDAgMCAxIDEuNDEyLjA3NHoiIGZpbGw9IiM0QTRBNEEiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik0xMy4wNjggMTYuMDUyQTEuNSAxLjUgMCAwIDEgMTQuNSAxNWgxOGExLjUgMS41IDAgMCAxIDEuNDMyIDEuMDUybDcuODY3IDEzLjYyNmExLjUgMS41IDAgMSAxLTIuNTk4IDEuNUwzMS41OTMgMThIMTUuNDA3TDcuOCAzMS4xNzhhMS41IDEuNSAwIDEgMS0yLjU5OC0xLjVsNy44NjctMTMuNjI2eiIgZmlsbD0iIzRBNEE0QSIvPjwvZz48L3N2Zz4=" alt="img1">
                         </div>
+                        <p>Click Your Demo<br>Inbox</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIiBmaWxsPSIjRkZGIi8+PGcgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMjIuNjQ4IDIyaDI2LjcxM2EzIDMgMCAwIDEgMi40NyAxLjI5N2w4Ljk3OCAxMy4wMjJhMyAzIDAgMCAxLS4wMjIgMy40MzhsLTguOTU0IDEyLjYzYTMgMyAwIDAgMS0yLjQ0NyAxLjI2NWgtMjYuNzhhMyAzIDAgMCAxLTIuNDQtMS4yNTNsLTguOTQ0LTEyLjQ4N2EzIDMgMCAwIDEtLjAzOS0zLjQzOWw4Ljk4OC0xMy4xNjVBMyAzIDAgMCAxIDIyLjY0OCAyMnoiIGZpbGw9IiNEQ0JBRkYiLz48cGF0aCBkPSJNMjEuMzA4IDM4LjA3N2EyLjMwOCAyLjMwOCAwIDEgMSAwLTQuNjE1IDIuMzA4IDIuMzA4IDAgMCAxIDAgNC42MTV6bTcuNjkyIDBhMi4zMDggMi4zMDggMCAxIDEgMC00LjYxNSAyLjMwOCAyLjMwOCAwIDAgMSAwIDQuNjE1em03LjY5MiAwYTIuMzA4IDIuMzA4IDAgMSAxIDAtNC42MTUgMi4zMDggMi4zMDggMCAwIDEgMCA0LjYxNXoiIGZpbGw9IiNGRkYiLz48cGF0aCBkPSJNMTguMzA4IDM2LjA3N2EyLjMwOCAyLjMwOCAwIDEgMSAwLTQuNjE1IDIuMzA4IDIuMzA4IDAgMCAxIDAgNC42MTV6bTcuNjkyIDBhMi4zMDggMi4zMDggMCAxIDEgMC00LjYxNSAyLjMwOCAyLjMwOCAwIDAgMSAwIDQuNjE1em03LjY5MiAwYTIuMzA4IDIuMzA4IDAgMSAxIDAtNC42MTUgMi4zMDggMi4zMDggMCAwIDEgMCA0LjYxNXpNNDYgNWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTFWNmExIDEgMCAwIDEgMS0xem0xMS41IDExLjV2MWExIDEgMCAwIDEtMSAxaC01YTEgMSAwIDAgMS0xLTF2LTFhMSAxIDAgMCAxIDEtMWg1YTEgMSAwIDAgMSAxIDF6bS0zLjIwNy03Ljc5OGwuNjcuNzQ0YTEgMSAwIDAgMS0uMDc0IDEuNDEybC0zLjcxNiAzLjM0NmExIDEgMCAwIDEtMS40MTItLjA3NGwtLjY3LS43NDRhMSAxIDAgMCAxIC4wNzQtMS40MTJsMy43MTYtMy4zNDZhMSAxIDAgMCAxIDEuNDEyLjA3NHoiIGZpbGw9IiM0QTRBNEEiLz48L2c+PHBhdGggZD0iTTQuNjEgMzMuMzY0bDkuODAzIDEzLjAxYTEuNzUgMS43NSAwIDEgMS0yLjc5NSAyLjEwNkwxLjA4NyAzNC41MDRhMS43NDMgMS43NDMgMCAwIDEtLjM1LTEuMTRjLS4wMi0uMzk2LjA5My0uOC4zNS0xLjE0bDEwLjUzMS0xMy45NzdhMS43NSAxLjc1IDAgMSAxIDIuNzk1IDIuMTA3TDQuNjEgMzMuMzY0eiIgZmlsbD0iIzRBNEE0QSIvPjxwYXRoIGQ9Ik01MC44OSAzMy4zNjRsLTkuODAzIDEzLjAxYTEuNzUgMS43NSAwIDEgMCAyLjc5NSAyLjEwNmwxMC41MzEtMTMuOTc2Yy4yNTctLjM0LjM3LS43NDUuMzUtMS4xNC4wMi0uMzk2LS4wOTMtLjgtLjM1LTEuMTRMNDMuODgyIDE4LjI0NmExLjc1IDEuNzUgMCAxIDAtMi43OTUgMi4xMDdsOS44MDMgMTMuMDF6IiBmaWxsPSIjRkZGIi8+PHBhdGggZD0iTTQ3Ljg5IDMzLjM2NGwtOS44MDMgMTMuMDFhMS43NSAxLjc1IDAgMSAwIDIuNzk1IDIuMTA2bDEwLjUzMS0xMy45NzZjLjI1Ny0uMzQuMzctLjc0NS4zNS0xLjE0LjAyLS4zOTYtLjA5My0uOC0uMzUtMS4xNEw0MC44ODIgMTguMjQ2YTEuNzUgMS43NSAwIDEgMC0yLjc5NSAyLjEwN2w5LjgwMyAxMy4wMXoiIGZpbGw9IiM0QTRBNEEiLz48L2c+PC9zdmc+Cg==" alt="img1">
+                        </div>
+                        <p>Copy / Paste<br>Your<br>Configuration</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgZmlsbD0iI0ZGRiIgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIi8+PHJlY3QgZmlsbD0iI0ZGRTU0QyIgeD0iMTAuMDQiIHk9IjI3LjA0IiB3aWR0aD0iMzYuOTYiIGhlaWdodD0iMjYuODgiIHJ4PSIzIi8+PHBhdGggZD0iTTEyLjM3NyAyNy4zOTlsMTIuNjMgNy40MzRhMS4yNyAxLjI3IDAgMCAxIC40MzMgMS43NjggMS4zNCAxLjM0IDAgMCAxLTEuODE1LjQ0NGwtMTIuNjMtNy40MzRhMS4yNyAxLjI3IDAgMCAxLS40MzMtMS43NjggMS4zNCAxLjM0IDAgMCAxIDEuODE1LS40NDR6IiBmaWxsPSIjNEE0QTRBIi8+PHBhdGggZD0iTTM2LjA5NSAyNy4yNjJsLTExLjkyNiA3Ljc4NGExLjM4NCAxLjM4NCAwIDAgMC0uNDE3IDEuODkyIDEuMzMgMS4zMyAwIDAgMCAxLjg1NS40MWwxMS45MjYtNy43ODVhMS4zODQgMS4zODQgMCAwIDAgLjQxNy0xLjg5MiAxLjMzIDEuMzMgMCAwIDAtMS44NTUtLjQxeiIgZmlsbD0iIzRBNEE0QSIvPjxyZWN0IHN0cm9rZT0iIzRBNEE0QSIgc3Ryb2tlLXdpZHRoPSIzIiB4PSI2LjUiIHk9IjIzLjUiIHdpZHRoPSIzMy45NiIgaGVpZ2h0PSIyMy44OCIgcng9IjIiLz48cGF0aCBkPSJNNDMgOWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTF2LTVhMSAxIDAgMCAxIDEtMXptMTEuNSAxMS41djFhMSAxIDAgMCAxLTEgMWgtNWExIDEgMCAwIDEtMS0xdi0xYTEgMSAwIDAgMSAxLTFoNWExIDEgMCAwIDEgMSAxem0tMy4yMDctNy43OThsLjY3Ljc0NGExIDEgMCAwIDEtLjA3NCAxLjQxMmwtMy43MTYgMy4zNDZhMSAxIDAgMCAxLTEuNDEyLS4wNzRsLS42Ny0uNzQ0YTEgMSAwIDAgMSAuMDc0LTEuNDEybDMuNzE2LTMuMzQ2YTEgMSAwIDAgMSAxLjQxMi4wNzR6IiBmaWxsPSIjNEE0QTRBIi8+PC9nPjwvc3ZnPg==" alt="img1">
+                        </div>
+                        <p class="step_text">Collect dev<br>emails into<br>Mailtrap inbox</p>
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
+        
+        <div></div>
+        
     </body>
 </html>
