@@ -1,0 +1,60 @@
+<header class="header">
+            <div class="header_container">
+                <a>
+                <img src="https://mailtrap.io/packs/assets/landing/logo-a902bbfd8e70556d863145ae15e74fb5.svg" alt="logo">
+                </a>
+                <nav class="header_nav">
+                    <div class="menu_nav">
+                        <div>
+                            <a class="menu_nav_bloc">
+                                <div class="menu_nav_bloc_text"> 
+                                    HOW IT WORKS
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="menu_nav_bloc">
+                                <div class="menu_nav_bloc_text"> 
+                                    PRICING
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="menu_nav_bloc">
+                                <div class="menu_nav_bloc_text"> 
+                                    API
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="menu_nav_bloc">
+                                <div class="menu_nav_bloc_text"> 
+                                    BLOG
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="menu_nav_bloc">
+                                <div class="menu_nav_bloc_text"> 
+                                    FAQ
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="menu_nav_bloc" style="border: 1px solid black; border-radius: 36px; width: 100px; height: 30px; background-color: gold; padding-top: 10px;">
+                                <div class="menu_nav_bloc_text"> 
+                                    Log In
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="menu_nav_bloc" style="border: 1px solid black; border-radius: 36px; width: 100px; height: 30px;background-color: gold; padding-top: 10px;">
+                                <div class="menu_nav_bloc_text"> 
+                                    Sign up
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
