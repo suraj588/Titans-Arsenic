@@ -1,0 +1,88 @@
+#createAccount{
+    display: grid;
+    width: 35%;
+    height: 400px;
+    grid-template-areas: "a a"
+                         "b h"
+                         "c h"
+                         "d ."
+                         "e ."
+                         "f ."
+                         "g .";
+    grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+    grid-template-columns: 68% 28%;
+    gap: 4%;
+    margin: 20px auto;
+                             
+}
+h2 {
+    grid-area: a;
+    font-size: 34px;
+    margin: 0px;
+}
+.google {
+    grid-area: b;
+}
+.github{
+    grid-area: c;
+}
+.office {
+    grid-area: d;
+}
+.or {
+    grid-area: e;
+    text-align: center;
+    margin: 10px;
+}
+.signupBtn{
+    grid-area: f;
+    background-color: #66f2d5;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.tAndC {
+    grid-area: g;
+}
+.boxes,.google,.github,.office,img{
+    background-color: #f6f6f7;
+    border-radius:20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.rightBox{
+    background-color: #fefce9;
+    grid-area: h;
+    display: flex;
+    flex-flow: row wrap;
+}
+img{
+    width: 8%;
+    height: 50%;
+    margin: 12px 20px 10px 50px;
+}
+.rightBox>img{
+    width: 20%;
+    height: 20%;
+    background-color: lightpink;
+    margin: 12px 10px;
+    float: left;
+    
+}
+.rightBox>div{
+    float:left;
+    font-size: 15px;
+    width: 58%;
+    height: 20%;
+    margin: 10px 5px;
+}
+
+.tAndC>div,.rightBox>div>div{
+    float: left;
+}
+.tAndC>div {
+    text-align: left;
+    font-size: 18px;
+    
+}
