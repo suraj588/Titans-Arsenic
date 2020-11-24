@@ -1,0 +1,84 @@
+.mainBox{
+    width: 600px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.innerBox{
+    display: flex;
+    
+}
+.body{
+    
+}
+.contentBox{
+    width: 60%;
+}
+
+.loginForm{
+    
+}
+.inputs{
+    display: grid;
+    margin-top: 15px;
+    line-height:1.5;
+}
+.inputs >input{
+height: 40px;
+}
+.password{
+    float: right;
+    
+}
+.link{
+    text-decoration: none;
+}
+.checkBox{
+    margin-top: 15px;
+}
+.button{
+    height: 40px;
+    width: 120px;
+    background-color: aqua;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.loginButton{
+    float: left;
+    padding-top: 25px;
+
+}
+.divide{
+    clear: both;
+    text-align: center;
+}
+.bottomLinks{
+    background-color: lightgrey;
+    height: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sideContent{
+    margin: 30px;
+   
+    height:150px;
+}
+.list{
+    list-style-type:none;
+    background-color: #fefce9;
+    line-height: 1.2;
+    padding: 35px;
+}
+.image{
+    height: 25px;
+    margin:  20px 15px;
+    padding-top: 5px;
+}
+.para{
+    padding-top: 8px;
+}
