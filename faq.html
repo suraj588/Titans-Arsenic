@@ -72,7 +72,7 @@
                 margin-right: auto;
                 width: 1075px;
             }
-            h1 {
+            .heading1 {
                 font-weight: 500px;
                 margin: 0;
                 font-size: 35px;
@@ -80,20 +80,20 @@
                 letter-spacing: -.1px;
                 margin-top: 25px;
             }
-            h3 {
+            .heading3 {
                 font-size: 18px;
                 line-height: 1.25;
                 letter-spacing: -.1px;
                 margin-bottom: 1px;
             }
-            ul {
+            .unorderList {
                 padding-left: 19px;
                 line-height: 1.45;
                 letter-spacing: -.1px;
                 margin-top: 1px;
                 color:teal;
             }
-            ol {
+            .orderList {
                 padding-left: 19px;
                 line-height: 1.45;
                 letter-spacing: -.1px;
@@ -170,9 +170,9 @@
             <div>
                 <div class="container_faq">
                     <div class="panel">
-                        <h1 class="title_faq">FAQ</h1>
-                        <h3>General Questions</h3>
-                        <ul>
+                        <h1 class="heading1">FAQ</h1>
+                        <h3 class="heading3">General Questions</h3>
+                        <ul class="unorderList">
                             <li>
                                 <a>What is Mailtrap?</a>
                             </li>
@@ -220,8 +220,8 @@
                             </li>
                         </ul>
 
-                        <h3>Settings</h3>
-                        <ul>
+                        <h3 class="heading3">Settings</h3>
+                        <ul class="unorderList">
                             <li>
                                 <a>How do I integrate it with my application?</a>
                             </li>
@@ -233,14 +233,14 @@
                             </li>
                         </ul>
 
-                        <h3>Common Issues</h3>
-                        <ul>
+                        <h3 class="heading3">Common Issues</h3>
+                        <ul class="unorderList">
                             <li>
                                 <a>What should I do if I cannot connect to Mailtrap SMTP server? Possible errors: "Connection cannot be established" or "Connection timed out"</a>
                             </li>
                         </ul>
-                        <h3>Administration and Permissions</h3>
-                        <ul>
+                        <h3 class="heading3">Administration and Permissions</h3>
+                        <ul class="unorderList">
                             <li>
                                 <a>How can I add team members to a project company and an inbox?</a>
                             </li>
@@ -252,8 +252,8 @@
                             </li>
                         </ul>
 
-                        <h3>Billing Questions</h3>
-                        <ul>
+                        <h3 class="heading3">Billing Questions</h3>
+                        <ul class="unorderList">
                             <li>
                                 <a>Subscription plans and account ownership</a>
                             </li>
@@ -287,60 +287,60 @@
 
                 <div class="container_general">
                     <div class="panel_2">
-                        <h1 class="title_faq">General Questions</h1>
-                        <h3>What is Mailtrap?</h3>
+                        <h1 class="heading1">General Questions</h1>
+                        <h3 class="heading3">What is Mailtrap?</h3>
                         <a>Mailtrap is a fake SMTP server designed to test, view, and share emails sent from the development and staging environments without spamming real customers or flooding your own inboxes.
                             Mailtrap is not a transactional email delivery system, it collects all emails from the Local Host, Stage, QA, etc., and lets you test, preview, and debug your HTML emails                         
                             Here's our guide that you can use to get a better idea of how Mailtrap works and how to configure it with your app.</a>
 
-                        <h3>Can emails captured by Mailtrap only be viewed via its interface?</h3>
+                        <h3 class="heading3">Can emails captured by Mailtrap only be viewed via its interface?</h3>
                         <a>You should not necessarily stick to our web interface. Instead, you can forward every single email to your or a teammates' mailbox. You can even enable automatic forwarding and Mailtrap will act as a proxy between your application and your email client. In this case, you can be sure you won't miss important messages from the QA environment, like exception notifications.</a>
                         
-                        <h3>How does Mailtrap render emails?</h3>
+                        <h3 class="heading3">How does Mailtrap render emails?</h3>
                         <a>Mailtrap renders emails in the same way browsers do, which means no additional stylesheet or CSS reset is applied by default.</a>
 
-                        <h3></h3>
+                        <h3 class="heading3"></h3>
                         <a></a>
 
-                        <h3>What does Mailtrap do with script tag?</h3>
+                        <h3 class="heading3">What does Mailtrap do with script tag?</h3>
                         <a>For enhanced security, Mailtrap removes all script tags from HTML.</a>
 
-                        <h3>Can Mailtrap show what email will look like in various email clients?</h3>
+                        <h3 class="heading3">Can Mailtrap show what email will look like in various email clients?</h3>
                         <a>Mailtrap is compatible with web email clients.
                             Mailtrap does not show exactly how an email will look like in any email client. It renders HTML as is without external CSS styles. Also, Mailtrap provides HTML check and demonstrates potential errors different email clients might experience when rendering an HTML email.         
                             You can also forward emails to Outlook, Thunderbird, etc., and use these desktop clients to view them.</a>
 
-                        <h3>Can I use Mailtrap as a /dev/null smtp server?</h3>
+                        <h3 class="heading3">Can I use Mailtrap as a /dev/null smtp server?</h3>
                         <a>The main goal of Mailtrap is to help you test emails, and /dev/null is not part of it. Should you need /dev/null SMTP server, please use the following built-in Python SMTP server: $ python -m smtpd -nc DebuggingServer localhost:2525 > /dev/null</a>
 
-                        <h3>What is the email size limit?</h3>
+                        <h3 class="heading3">What is the email size limit?</h3>
                         <a>The maximum size of an email including attachments ranges from 5 MB to 25 MB. It depends on your subscription plan. If your message exceeds this limit, you will get the following error: '552 5.3.4 Error: message too big'</a>
 
-                        <h3>What is the SMTP rate limit for inbox?</h3>
+                        <h3 class="heading3">What is the SMTP rate limit for inbox?</h3>
                         <a>It is the number of emails you can send to each of your inboxes every 10 seconds. The SMTP rate limit depends on the subscription plan. For more details, check out the Pricing page.</a>
 
-                        <h3>What is the monthly messages limit?</h3>
+                        <h3 class="heading3">What is the monthly messages limit?</h3>
                         <a>It is the maximum number of emails you can test with Mailtrap and get in all your inboxes per month. The total emails per month limit depends on the subscription plan. For more details, check out the Pricing page.
                             If you reach the monthly limit, you'll get the SMTP protocol error: "535 5.7.0 Monthly messages limit reached". We also send out notifications for having used 80%, 90% and 100% of the monthly limit.
                             To continue testing when you're over the sending limit, please upgrade your subscription plan. Alternatively, you can wait until the next billing period starts, and the limit is reset.</a>
 
-                        <h3>Do you have a bug bounty program?</h3>
+                        <h3 class="heading3">Do you have a bug bounty program?</h3>
                         <a>We do not. In case you have found a vulnerability on our website that you are eager to report to us, you are welcome to do so at support@mailtrap.io. All issue reporters will be mentioned in our changelog page.</a>
 
-                        <h3>I would like to whitelist smtp.mailtrap.io in my firewall. What is Mailtrap's IP range?</h3>
+                        <h3 class="heading3">I would like to whitelist smtp.mailtrap.io in my firewall. What is Mailtrap's IP range?</h3>
                         <a>We use AWS with auto-balancing, so our IP ranges are the following: https://ip-ranges.amazonaws.com/ip-ranges.json</a>
 
-                        <h3>Does Mailtrap comply with GDPR?</h3>
+                        <h3 class="heading3">Does Mailtrap comply with GDPR?</h3>
                         <a>The General Data Protection Regulation (GDPR) came into effect on May 25, 2018. We have implemented appropriate technical and security processes to ensure Mailtrap full compliance with the Regulation. For more details, refer to our Privacy Policy, Navigational Information, and Data Protection Agreement.</a>
 
-                        <h3>Should I pay to use Mailtrap?</h3>
+                        <h3 class="heading3">Should I pay to use Mailtrap?</h3>
                         <a>Mailtrap provides a free subscription plan for new users who want to evaluate Mailtrap or intend applying it on a personal side project. For bigger teams, we offer sets of features within several paid subscription plans. To choose one that best fits your needs, check out the Pricing page.</a>
 
-                        <h3>Which browsers does Mailtrap support?</h3>
+                        <h3 class="heading3">Which browsers does Mailtrap support?</h3>
                         <a>Mailtrap supports the latest two versions of the Chromium-based browsers, Firefox, and Safari, unless otherwise noted
 
                             Major desktop browsers:</a>
-                            <ul>
+                            <ul class="unorderList">
                                 <li>Firefox</li>
                                 <li>Google Chrome</li>
                                 <li>Microsoft Edge</li>
@@ -348,17 +348,17 @@
                                 <li>Safari</li>
                             </ul>
                             <a>Major mobile browsers:</a>
-                            <ul>
+                            <ul class="unorderList">
                                 <li>Firefox for Android</li>
                                 <li>Google Chrome for Android</li>
                                 <li>Safari app</li>
                             </ul>
                             <a>Please note that Internet Explorer is not supported any more as Microsoft is gradually deprecating its support and recommends Edge as a more modern and secure alternative.</a>
 
-                            <h1 class="title_faq">Settings</h1>
-                            <h3>How do I integrate it with my application?</h3>
+                            <h1 class="heading1">Settings</h1>
+                            <h3 class="heading3">How do I integrate it with my application?</h3>
                             <a>The integration is very simple and takes just a couple of minutes:</a>
-                            <ol>
+                            <ol class="orderList">
                                 <li>Sign up by creating a free account</li>
                                 <li>Go to the Demo inbox in My Inboxes section</li>
                                 <li>Copy credentials provided in the SMTP Settings section</li>
@@ -366,16 +366,16 @@
                                     You can also use popular framework configurations: Ruby on Rails, Symfony, Zend Framework, Django, JBoss, etc.
                                     To get more details, follow our Getting Started Guide.</li>
                             </ol>
-                            <h3>I've got a problem integrating Mailtrap with my app, what should I do?</h3>
+                            <h3 class="heading3">I've got a problem integrating Mailtrap with my app, what should I do?</h3>
                             <a>Please send us an email at support@mailtrap.io describing the issue; we'll try to help you ASAP.</a>
 
-                            <h3>Can I force an encrypted connection?</h3>
+                            <h3 class="heading3">Can I force an encrypted connection?</h3>
                             <a>Yes, you can enforce encrypted connection. Mailtrap SMTP server uses STARTTLS which works over all SMTP ports. We support only TLS connection because of the POODLE vulnerability (SSLv2 and SSLv3 are disabled).</a>
 
-                            <h1 class="title_faq">Common Issues</h1>
-                            <h3>What should I do if I cannot connect to Mailtrap SMTP server? Possible errors: "Connection cannot be established" or "Connection timed out"</h3>
+                            <h1 class="heading1">Common Issues</h1>
+                            <h3 class="heading3">What should I do if I cannot connect to Mailtrap SMTP server? Possible errors: "Connection cannot be established" or "Connection timed out"</h3>
                             <a>First, test your connection using the Telnet utility: telnet smtp.mailtrap.io 2525. You can find an example of the successful Telnet output in the Integrations section of any of your inboxes.<br>If Telnet shows that a connection can't be established with our server, follow the next steps:</a>
-                            <ol>
+                            <ol class="orderList">
                                 <li>Try to use another SMTP port: 2525, 465, or 25. In most cases, the issue is related to SMTP port being blocked by the firewall.</li>
                                 <li>If none of these ports - work, try connecting with a different machine, location, ISP, or to use a VPN. This will help identify the route of the issue.</li>
                                 <li>Check if the SMTP connection is not closed on idle timeout on the server side. If you opened an SMTP connection and haven't closed it afterward, the SMTP server will close the session with the idle timeout.</li>
@@ -383,49 +383,49 @@
                             <a>To make sure our SMTP server is up and running, go to the Status page. Here you can check the SMTP server availability from different locations.<br>If the issue persists, please let us know at support@mailtrap.io.</a>
 
                             
-                            <h1 class="title_faq">Administration and Permissions</h1>
-                            <h3>How can I add team members to a project company and an inbox?</h3>
+                            <h1 class="heading1">Administration and Permissions</h1>
+                            <h3 class="heading3">How can I add team members to a project company and an inbox?</h3>
                             <a>To invite your teammates to your inbox, enter an email address registered in Mailtrap in the dedicated field of the Users tab in the Inbox settings. To share all inboxes grouped in the project, share the link specified in the Users tab of the Project users section.</a>
-                            <h3>How can I change the owner of my Project?</h3>
+                            <h3 class="heading3">How can I change the owner of my Project?</h3>
                             <a>To change the owner of your Mailtrap Project, follow these steps:</a>
-                            <ol>
+                            <ol class="orderList">
                                 <li>Make sure the new owner is already registered in Mailtrap and is listed as a user of the Project you are transferring the ownership for. To check your project users, go to inboxes and hit "Project Team Members" icon.</li>
                                 <li>Please note that we do not moving billing subscription/ information between accounts for security reasons. What we can migrate between Mailtrap users is the ownership of a Mailtrap project(-s). So, if you are currently on a paid plan and want to move ownership to another user who is on unpaid subscription, you should consider upgrading the new owner's account first. This way the project keeps all its paid features (multiple inboxes, proper limits, etc.)</li>
                                 <li>Send us a message to support@mailtrap.io indicating your project name and the new owner's email address.</li>
                             </ol>
                             <a>Note: you can associate a different email address with your account manually in case you look for a complete transfer of your Mailtrap account to another user. You can edit the account email address on the Settings page of your Profile section.</a>
-                            <h3>How do I delete my account?</h3>
+                            <h3 class="heading3">How do I delete my account?</h3>
                             <a>Please use the options inside the Settings page of your Profile section. If you still have problems, send us an email with your request at support@mailtrap.io providing your API token. Please use the same email address registered in Mailtrap for the account you want to delete.</a>
 
-                            <h1 class="title_faq">Billing Questions</h1>
-                            <h3>Subscription plans and account ownership</h3>
+                            <h1 class="heading1">Billing Questions</h1>
+                            <h3 class="heading3">Subscription plans and account ownership</h3>
                             <a>Your subscription plan limits apply only to the inboxes and projects you own. Shared inboxes and projects refer to their owners. If you see an inactive inbox, check whether it is shared. If so, its owner should activate it.
                                 This way, project's/inbox's team members can use Mailtrap according to the owner's subscription plan limitations without a need to change their own subscription plan.</a>
 
-                            <h3>How can I activate my inboxes?</h3>
+                            <h3 class="heading3">How can I activate my inboxes?</h3>
                             <a>Here is a list of all the inboxes you own. If you downgrade to a subscription plan with a lower inboxes limit, you will be asked to activate those inboxes you wish to continue using. Afterward, activation is available at the Billing dashboard.
                                 Please note that you can activate an inbox only once. In case you activated an inbox by mistake, please email us at support@mailtrap.io or upgrade to a larger plan that includes more inboxes.</a>
 
-                            <h3>When will I be charged for the subscription plan change?</h3>
+                            <h3 class="heading3">When will I be charged for the subscription plan change?</h3>
                             <a>If you upgrade to a bigger plan, we create a prorated transaction based on the price change for the rest of the billing cycle. If you downgrade, the new price will be applied in the next billing period. If the transaction for the prorated amount fails, the subscription update is canceled.</a>
 
-                            <h3>Do you offer a yearly subscription?</h3>
+                            <h3 class="heading3">Do you offer a yearly subscription?</h3>
                             <a>Now we only offer monthly subscription plans.</a>
 
-                            <h3>Can I pay for Mailtrap by invoice using bank transfer?</h3>
+                            <h3 class="heading3">Can I pay for Mailtrap by invoice using bank transfer?</h3>
                             <a>Unfortunately, it is not possible. The only payment method that is currently available is bank card payments.</a>
 
-                            <h3>Can I receive a purchase order?</h3>
+                            <h3 class="heading3">Can I receive a purchase order?</h3>
                             <a>We don't provide purchase orders for Mailtrap subscriptions.</a>
 
-                            <h3>How can I get an invoice?</h3>
+                            <h3 class="heading3">How can I get an invoice?</h3>
                             <a>We send invoices by email once your credit card is successfully charged. Fill in the requested details in the Setting tabs of the Billing section in your Mailtrap account and indicate your financial email address for invoices and billing notifications.
                                 If the financial email address is not set up, you will get invoices and billing notifications to your main account email address.</a>
 
-                            <h3>Can I move my billing subscription to another account?</h3>
+                            <h3 class="heading3">Can I move my billing subscription to another account?</h3>
                             <a>For security reasons, we can't migrate payment credentials and subscription billing plans between accounts. Otherwise, you can change your account email address in the User Settings of your Profile page or send us a request at support@mailtrap.io.</a>
 
-                            <h3>Do you offer discounts for non-profit open-source organizations?</h3>
+                            <h3 class="heading3">Do you offer discounts for non-profit open-source organizations?</h3>
                             <a>Yes, we provide a Team plan for free for non-profit open-source organizations. Please send us a document that verifies that you are a representative of a non-profit open-source organization (it can be a W-9 form or any other legal document) to support@mailtrap.io and we'll be happy to assist you.</a>
 
                     </div>
