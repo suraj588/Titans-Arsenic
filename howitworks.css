@@ -1,3 +1,44 @@
+.header {
+    position: fixed;
+    background-color: white;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #202c45;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+ }
+ .header_container {
+     display: flex;
+     align-items: center;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-left: 100px;
+ }
+ .header_nav {
+     display: flex;
+     align-items: center;
+ }
+ .menu_nav {
+     display: flex;
+     width: 800px;
+     margin-left: 250px;
+     margin-right: 20px;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .menu_nav_bloc {
+     display: block;
+     font-size: 12px;
+     font-weight:bolder;
+     text-align: center;
+ }
+ .menu_nav_bloc_text {
+     display: inline-block;
+     position: relative;
+     
+ }
 .container{
     width: 100%;
     padding: 80px;
@@ -50,4 +91,64 @@
 }
 p{
     line-height: 1.5;
+}
+#footerCover {
+    width: 100%;
+    height: 500px;
+    background-color: #313a45;
+}
+#footer {
+    width: 80%;
+    height: 60%;
+    margin: 10% auto;
+    background-color: #313a45;
+    font-family: 'Roboto', sans-serif;
+}
+#footerGrid {
+    display: grid;
+    width: 70%;
+    height: 90%;
+    grid-template-areas: "a b c d";
+                         
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 100%;
+    gap: 2%;
+    margin: 80px 0px 0px;
+}
+#footer>div,.icon {
+    float: left;
+}
+#footerGrid>div {
+    display: flex;
+    flex-flow: column wrap;
+}
+.boldWhite{
+    font-weight: 120;
+    font-size: 20px;
+}
+#footerGrid>div>:nth-child(1) {
+    color: white;
+}
+.railsware {
+    margin: 80px 100px;
+}
+.grayFont {
+    color: hsla(0,0%,100%,.53);
+    font-size: 15px;
+    line-height: 30px;
+}
+.blueLine{
+    width: 100%;
+    border-color: #0080b6;
+}
+.grayLine{
+    width: 100%;
+    border-color: hsla(0,0%,100%,.53);
+}
+.aboutMailtrap{
+    color: hsla(0,0%,100%,.53);
+    float: left;
+    width: 57%;
+    font-size: 14px;
+    margin: 12px 0px;
 }
