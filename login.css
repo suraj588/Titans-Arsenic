@@ -72,6 +72,11 @@
 }
 .inputs >input{
 height: 40px;
+outline: none;
+}
+input:focus{
+    border: 2px solid aqua;
+
 }
 .password{
     float: right;
