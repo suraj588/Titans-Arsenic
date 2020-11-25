@@ -1,9 +1,16 @@
+body > {
+    font-family: Poppins,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+    font-size: 14px;
+}
 .header {
     position: fixed;
     background-color: white;
-    max-width: 1366px;
+    max-width: 100%;
     top: 0;
-    
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #202c45;
  }
  .header_container {
      display: flex;
@@ -50,6 +57,7 @@
     grid-template-columns: 68% 28%;
     gap: 4%;
     margin: 150px auto;
+    font-family: 'Roboto', sans-serif;
     
                              
 }
@@ -135,6 +143,7 @@ h2 {
     height: 60%;
     margin: 10% auto;
     background-color: #313a45;
+    font-family: 'Roboto', sans-serif;
 }
 #footerGrid {
     display: grid;
