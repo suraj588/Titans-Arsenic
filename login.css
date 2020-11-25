@@ -1,8 +1,11 @@
 .header {
     position: fixed;
     background-color: white;
-    max-width: 1366px;
+    max-width: 100%;
     top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
     
  }
  .header_container {
@@ -125,6 +128,7 @@ height: 40px;
     height: 60%;
     margin: 10% auto;
     background-color: #313a45;
+    font-family: 'Roboto', sans-serif;
 }
 #footerGrid {
     display: grid;
