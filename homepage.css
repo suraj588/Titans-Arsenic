@@ -152,3 +152,33 @@
  .feature_head{
      max-width: 250px;
  }
+ .customers{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #202c45;
+    text-align: center;
+    background-color:#f6f6f7;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9Ijg0IiB2aWV3Qm94PSIwIDAgNzE3IDg0IiB3aWR0aD0iNzE3IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTc0IDM0KSI+PGNpcmNsZSBjeD0iNC43ODciIGN5PSI0Ljc4NyIgcj0iNC43ODciIHN0cm9rZT0iIzRhNGE0YSIgc3Ryb2tlLXdpZHRoPSIzIi8+PHBhdGggZD0iTTI3Ljg3MSAxMS41NjhoNDEuMTI0YTIgMiAwIDAgMSAxLjYxOCAzLjE3NUw0NS43MzUgNDkuMDIxYTIgMiAwIDAgMS0zLjI1OS0uMDNjLTQuNDItNi4zMjgtNy40OTYtMTEuMzA5LTkuMjMxLTE0Ljk0Mi0xLjc4LTMuNzI5LTQuMjA2LTEwLjM1LTcuMjc3LTE5Ljg2NmEyIDIgMCAwIDEgMS45MDMtMi42MTV6IiBmaWxsPSIjMmVmOGNmIi8+PHJlY3QgaGVpZ2h0PSIxOC41OTgiIHJ4PSIyIiBzdHJva2U9IiM0YTRhNGEiIHN0cm9rZS13aWR0aD0iMyIgd2lkdGg9IjE5LjMzIiB4PSI0OC43NjgiIHk9IjIyLjI0MyIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2NDcpIj48cGF0aCBkPSJNMzIuMyAyMy42NjdjOS4zMiAwIDIzLjQyMS45IDMwLjUxOC0xLjMgNS44MzgtMS44MSA2LjkxMi02LjI1IDYuOTEyLTEwLjA3IDAtMy44MTgtMS4zMTMtNy41NTctNi45MTItMTAuNTM2QzU2LjcwNi0xLjQ5MiA0NC4xMi43NTcgMzQuMTEyLjc1N2MtOC4zNzQgMC0yMS45LS44Mi0yNy40NDYgMS4wMDRDLjk2MiAzLjYzNyAwIDEwLjQ0IDAgMTMuMzM0YzAgMi42NjYuMTE4IDguNSA1LjQxMyAxMC4zMzMgNi4wMzcgMi4wOSAxNy44MzYgMCAyNi44ODYgMHoiIGZpbGw9IiNmZmU1NGMiLz48Y2lyY2xlIGN4PSI1NC4yNjMiIGN5PSIyMy4xNjciIHI9IjUuMTY3IiBzdHJva2U9IiM0YTRhNGEiIHN0cm9rZS13aWR0aD0iMyIvPjwvZz48Y2lyY2xlIGN4PSIxOC41MzciIGN5PSI1My41MzciIGZpbGw9IiNkY2JhZmYiIHI9IjE4LjUzNyIvPjxjaXJjbGUgY3g9IjM0LjE5MSIgY3k9IjY1LjMwNSIgcj0iNS42NzEiIHN0cm9rZT0iIzRhNGE0YSIgc3Ryb2tlLXdpZHRoPSIzIi8+PC9nPjwvc3ZnPg==);
+    background-position:50% 5%;
+    background-repeat: no-repeat ;
+}
+ .logos{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ .logos>img{
+     margin: 15px;
+     max-width: 200px;
+ }
+ .comments{
+     height: 250px;
+     background: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjcwIiB2aWV3Qm94PSIwIDAgMTQwIDcwIiB3aWR0aD0iMTQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNDAgMGMtMzguNjYgMC03MCAzMS4zNC03MCA3MEM3MCAzMS4zNCAzOC42NiAwIDAgMGg3MHoiIGZpbGw9IiNmNmY2ZjciIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPgo=) no-repeat center -1px;
+ }
