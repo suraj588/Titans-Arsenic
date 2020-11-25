@@ -6,6 +6,7 @@
     left: 0;
     right: 0;
     font-family: 'Roboto', sans-serif;
+    color: #202c45;
     
  }
  .header_container {
@@ -49,6 +50,7 @@
  }
  .intro_box{
      font-family: 'Roboto', sans-serif;
+     color: #202c45;
  }
  .intro {
      padding-top: 150px;
@@ -58,7 +60,8 @@
      margin-right: 20px;
      margin-left: 100px;
      padding-top: 10px;
-     width: 450px;
+     max-width: 390px;
+     line-height: 1.5;
  }
  .signup_button{
      height: 20px;
@@ -93,8 +96,9 @@
  .easy_setup {
      padding-top: 80px;
      max-width: 1100px;
-     margin-left: 100px;
+     margin-left: 50px;
      font-family: 'Roboto', sans-serif;
+     color: #202c45;
  }
  .easy_setup_intro_container {
      display: flex;
@@ -118,4 +122,33 @@
      float: right;
      margin-left: 50px;
  }
- 
+ .features_box{
+     clear: both;
+     max-width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 50px;
+     padding-right: 30px;
+     padding-top: 30px;
+     font-family: 'Roboto', sans-serif;
+     color: #202c45;
+ }
+ .features_box >div:last-child{
+     border: none;
+ }
+ .features{
+     display: flex;
+     padding-top: 80px;
+     padding-bottom: 80px;
+     border-bottom: 3px dashed #c3c3c3;
+     align-items: center;
+     justify-content: space-around;
+     line-height: 1.5;
+     
+ }
+ .feature_content{
+     max-width: 360px;
+ }
+ .feature_head{
+     max-width: 250px;
+ }
