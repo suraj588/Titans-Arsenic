@@ -1,12 +1,12 @@
 .header {
     position: fixed;
     background-color: white;
-    max-width: 100%;
-    font-family: 'Roboto', sans-serif;
-    color: #202c45;
+    width:100%;
     top: 0;
     left: 0;
     right: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #202c45;
     
  }
  .header_container {
@@ -19,10 +19,11 @@
  .header_nav {
      display: flex;
      align-items: center;
+     width:80%;
  }
  .menu_nav {
      display: flex;
-     width: 800px;
+     width: 100%;
      margin-left: 250px;
      margin-right: 20px;
      align-items: center;
@@ -33,11 +34,20 @@
      font-size: 12px;
      font-weight:bolder;
      text-align: center;
- }
- .menu_nav_bloc_text {
-     display: inline-block;
-     position: relative;
+     text-decoration: none;
+     color: inherit;
      
+ }
+ .button{
+ border: 1px solid black;
+ border-radius: 36px;
+ width: 100px;
+ height: 30px; 
+ padding-top: 10px;
+ }
+ .shadow{
+     box-shadow:inset white 2px 3px 0px 0px
+     ,inset gold 9px 50px 0px 0px  ;
  }
 .container{
     width: 100%;
