@@ -5,7 +5,7 @@ body > {
 .header {
     position: fixed;
     background-color: white;
-    max-width: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -42,33 +42,10 @@ body > {
      position: relative;
      
  }
-#createAccount{
-    display: grid;
-    width: 35%;
-    height: 400px;
-    grid-template-areas: "a a"
-                         "b h"
-                         "c h"
-                         "d ."
-                         "e ."
-                         "f ."
-                         "g .";
-    grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
-    grid-template-columns: 68% 28%;
-    gap: 4%;
-    margin: 150px auto;
-    font-family: 'Roboto', sans-serif;
-    
-                             
-}
-h2 {
-    grid-area: a;
-    font-size: 34px;
-    margin: 0px;
-}
+
 .google {
     grid-area: b;
-}
+ }
 .github{
     grid-area: c;
 }
@@ -113,14 +90,14 @@ h2 {
     width: 20%;
     height: 20%;
     background-color: lightpink;
-    margin: 12px 10px;
+    margin: 12px 5px;
     float: left;
     
 }
 .rightBox>div{
     float:left;
     font-size: 15px;
-    width: 58%;
+    width: 62%;
     height: 20%;
     margin: 10px 5px;
 }
@@ -137,6 +114,7 @@ h2 {
     width: 100%;
     height: 500px;
     background-color: #313a45;
+    margin: 400px 0px 0px;
 }
 #footer {
     width: 80%;
@@ -192,4 +170,225 @@ h2 {
     width: 57%;
     font-size: 14px;
     margin: 12px 0px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #createAccount{
+        display: grid;
+        width: 70%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b b"
+                             "c c"
+                             "d d"
+                             "e e"
+                             "f f"
+                             "g g"
+                             "h h";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 100%;
+        gap: 4%;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif;                        
+    }
+    h2 {
+        grid-area: a;
+        font-size: 25px;
+        margin: 0px;
+        max-width: 100%;
+        padding: 15px 0px;
+        
+    }
+    .rightBox>img{
+        width: 50px;
+        height: 50px;
+        background-color: lightpink;
+        margin: 12px 5px;
+        float: left;
+        
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #createAccount{
+        display: grid;
+        width: 70%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b b"
+                             "c c"
+                             "d d"
+                             "e e"
+                             "f f"
+                             "g g"
+                             "h h";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 100%;
+        gap: 4%;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif;                        
+    }
+    h2 {
+        grid-area: a;
+        font-size: 30px;
+        margin: 0px;
+        max-width: 100%;
+        padding: 10px 0px;
+        
+    }
+    .rightBox>img{
+        width: 20%;
+        height: 20%;
+        background-color: lightpink;
+        margin: 6px 5px;
+        float: left;
+        
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #createAccount{
+        display: grid;
+        width: 60%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b h"
+                             "c h"
+                             "d ."
+                             "e ."
+                             "f ."
+                             "g .";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 300px 150px;
+        gap: 10px;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif;  
+                 
+    }
+    h2 {
+        grid-area: a;
+        font-size: 30px;
+        margin: 0px;
+        max-width: 100%;
+        padding: 10px 0px;
+        
+    }
+    .google {
+        grid-area: b;
+        max-width: 300px;
+    }
+    .github{
+        grid-area: c;
+        max-width: 300px;
+    }
+    .office {
+        grid-area: d;
+        max-width: 300px;
+    }
+    .rightBox{
+        background-color: #fefce9;
+        grid-area: h;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 150px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #createAccount{
+        display: grid;
+        width: 60%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b h"
+                             "c h"
+                             "d ."
+                             "e ."
+                             "f ."
+                             "g .";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 300px 150px;
+        gap: 4%;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif;
+        
+                               
+    }
+    h2 {
+        grid-area: a;
+        font-size: 30px;
+        margin: 0px;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .google {
+        grid-area: b;
+        max-width: 300px;
+    }
+    .github{
+        grid-area: c;
+        max-width: 300px;
+    }
+    .office {
+        grid-area: d;
+        max-width: 300px;
+    }
+    .rightBox{
+        background-color: #fefce9;
+        grid-area: h;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 150px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #createAccount{
+        display: grid;
+        width: 40%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b h"
+                             "c h"
+                             "d ."
+                             "e ."
+                             "f ."
+                             "g .";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 300px 150px;
+        gap: 4%;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif; 
+        
+    }
+    h2 {
+        grid-area: a;
+        font-size: 30px;
+        margin: 0px;
+        max-width: 100%;
+        
+    }
+    .google {
+        grid-area: b;
+        max-width: 300px;
+    }
+    .github{
+        grid-area: c;
+        max-width: 300px;
+    }
+    .office {
+        grid-area: d;
+        max-width: 300px;
+    }
+    .rightBox{
+        background-color: #fefce9;
+        grid-area: h;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 150px;
+    }
 }
