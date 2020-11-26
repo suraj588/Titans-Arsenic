@@ -1,0 +1,424 @@
+.header {
+    position: fixed;
+    background-color: white;
+    width:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #202c45;
+    
+ }
+ .header_container {
+     display: flex;
+     align-items: center;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-left: 100px;
+ }
+ .header_nav {
+     display: flex;
+     align-items: center;
+     width:80%;
+ }
+ .menu_nav {
+     display: flex;
+     width: 100%;
+     margin-left: 250px;
+     margin-right: 20px;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .menu_nav_bloc {
+     display: block;
+     font-size: 12px;
+     font-weight:bolder;
+     text-align: center;
+     text-decoration: none;
+     color: inherit;
+     
+ }
+ .buttontop{
+ border: 1px solid black;
+ border-radius: 36px;
+ width: 100px;
+ height: 30px; 
+ padding-top: 10px;
+ }
+ .shadow{
+     box-shadow:inset white 2px 3px 0px 0px
+     ,inset gold 9px 50px 0px 0px  ;
+ }
+#createAccount{
+    display: grid;
+    width: 35%;
+    height: 400px;
+    grid-template-areas: "a a"
+                         "b h"
+                         "c h"
+                         "d ."
+                         "e ."
+                         "f ."
+                         "g .";
+    grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+    grid-template-columns: 68% 28%;
+    gap: 4%;
+    margin: 150px auto;
+    font-family: 'Roboto', sans-serif;
+    
+                             
+}
+h2 {
+    grid-area: a;
+    font-size: 34px;
+    margin: 0px;
+}
+.google {
+    grid-area: b;
+ }
+.github{
+    grid-area: c;
+}
+.office {
+    grid-area: d;
+}
+.or {
+    grid-area: e;
+    text-align: center;
+    margin: 10px;
+}
+.signupBtn{
+    grid-area: f;
+    background-color: #66f2d5;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.tAndC {
+    grid-area: g;
+}
+.boxes,.google,.github,.office,img{
+    background-color: #f6f6f7;
+    border-radius:20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.rightBox{
+    background-color: #fefce9;
+    grid-area: h;
+    display: flex;
+    flex-flow: row wrap;
+}
+.google>img,.github>img,.office>img{
+    width: 8%;
+    height: 50%;
+    margin: 12px 20px 10px 50px;
+}
+.rightBox>img{
+    width: 20%;
+    height: 20%;
+    background-color: lightpink;
+    margin: 12px 5px;
+    float: left;
+    
+}
+.rightBox>div{
+    float:left;
+    font-size: 15px;
+    width: 62%;
+    height: 20%;
+    margin: 10px 5px;
+}
+
+.tAndC>div,.rightBox>div>div{
+    float: left;
+}
+.tAndC>div {
+    text-align: left;
+    font-size: 18px;
+    
+}
+#footerCover {
+    width: 100%;
+    height: 500px;
+    background-color: #313a45;
+    margin: 400px 0px 0px;
+}
+#footer {
+    width: 80%;
+    height: 60%;
+    margin: 10% auto;
+    background-color: #313a45;
+    font-family: 'Roboto', sans-serif;
+}
+#footerGrid {
+    display: grid;
+    width: 70%;
+    height: 90%;
+    grid-template-areas: "a b c d";
+                         
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 100%;
+    gap: 2%;
+    margin: 80px 0px 0px;
+}
+#footer>div,.icon {
+    float: left;
+}
+#footerGrid>div {
+    display: flex;
+    flex-flow: column wrap;
+}
+.boldWhite{
+    font-weight: 120;
+    font-size: 20px;
+}
+#footerGrid>div>:nth-child(1) {
+    color: white;
+}
+.railsware {
+    margin: 80px 100px;
+}
+.grayFont {
+    color: hsla(0,0%,100%,.53);
+    font-size: 15px;
+    line-height: 30px;
+}
+.blueLine{
+    width: 100%;
+    border-color: #0080b6;
+}
+.grayLine{
+    width: 100%;
+    border-color: hsla(0,0%,100%,.53);
+}
+.aboutMailtrap{
+    color: hsla(0,0%,100%,.53);
+    float: left;
+    width: 57%;
+    font-size: 14px;
+    margin: 12px 0px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #createAccount{
+        display: grid;
+        width: 70%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b b"
+                             "c c"
+                             "d d"
+                             "e e"
+                             "f f"
+                             "g g"
+                             "h h";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 100%;
+        gap: 4%;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif;                        
+    }
+    h2 {
+        grid-area: a;
+        font-size: 25px;
+        margin: 0px;
+        max-width: 100%;
+        padding: 15px 0px;
+        
+    }
+    .rightBox>img{
+        width: 50px;
+        height: 50px;
+        background-color: lightpink;
+        margin: 12px 5px;
+        float: left;
+        
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #createAccount{
+        display: grid;
+        width: 70%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b b"
+                             "c c"
+                             "d d"
+                             "e e"
+                             "f f"
+                             "g g"
+                             "h h";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 100%;
+        gap: 4%;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif;                        
+    }
+    h2 {
+        grid-area: a;
+        font-size: 30px;
+        margin: 0px;
+        max-width: 100%;
+        padding: 10px 0px;
+        
+    }
+    .rightBox>img{
+        width: 20%;
+        height: 20%;
+        background-color: lightpink;
+        margin: 6px 5px;
+        float: left;
+        
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #createAccount{
+        display: grid;
+        width: 60%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b h"
+                             "c h"
+                             "d ."
+                             "e ."
+                             "f ."
+                             "g .";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 300px 150px;
+        gap: 10px;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif;  
+                 
+    }
+    h2 {
+        grid-area: a;
+        font-size: 30px;
+        margin: 0px;
+        max-width: 100%;
+        padding: 10px 0px;
+        
+    }
+    .google {
+        grid-area: b;
+        max-width: 300px;
+    }
+    .github{
+        grid-area: c;
+        max-width: 300px;
+    }
+    .office {
+        grid-area: d;
+        max-width: 300px;
+    }
+    .rightBox{
+        background-color: #fefce9;
+        grid-area: h;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 150px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #createAccount{
+        display: grid;
+        width: 60%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b h"
+                             "c h"
+                             "d ."
+                             "e ."
+                             "f ."
+                             "g .";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 300px 150px;
+        gap: 4%;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif;
+        
+                               
+    }
+    h2 {
+        grid-area: a;
+        font-size: 30px;
+        margin: 0px;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .google {
+        grid-area: b;
+        max-width: 300px;
+    }
+    .github{
+        grid-area: c;
+        max-width: 300px;
+    }
+    .office {
+        grid-area: d;
+        max-width: 300px;
+    }
+    .rightBox{
+        background-color: #fefce9;
+        grid-area: h;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 150px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #createAccount{
+        display: grid;
+        width: 40%;
+        height: 400px;
+        grid-template-areas: "a a"
+                             "b h"
+                             "c h"
+                             "d ."
+                             "e ."
+                             "f ."
+                             "g .";
+        grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+        grid-template-columns: 300px 150px;
+        gap: 4%;
+        margin: 150px auto;
+        font-family: 'Roboto', sans-serif; 
+        
+    }
+    h2 {
+        grid-area: a;
+        font-size: 30px;
+        margin: 0px;
+        max-width: 100%;
+        
+    }
+    .google {
+        grid-area: b;
+        max-width: 300px;
+    }
+    .github{
+        grid-area: c;
+        max-width: 300px;
+    }
+    .office {
+        grid-area: d;
+        max-width: 300px;
+    }
+    .rightBox{
+        background-color: #fefce9;
+        grid-area: h;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 150px;
+    }
+}
