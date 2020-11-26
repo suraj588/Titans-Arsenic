@@ -1,16 +1,13 @@
-body > {
-    font-family: Poppins,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
-    font-size: 14px;
-}
 .header {
     position: fixed;
     background-color: white;
-    width: 100%;
+    width:100%;
     top: 0;
     left: 0;
     right: 0;
     font-family: 'Roboto', sans-serif;
     color: #202c45;
+    
  }
  .header_container {
      display: flex;
@@ -22,10 +19,11 @@ body > {
  .header_nav {
      display: flex;
      align-items: center;
+     width:80%;
  }
  .menu_nav {
      display: flex;
-     width: 800px;
+     width: 100%;
      margin-left: 250px;
      margin-right: 20px;
      align-items: center;
@@ -36,13 +34,45 @@ body > {
      font-size: 12px;
      font-weight:bolder;
      text-align: center;
- }
- .menu_nav_bloc_text {
-     display: inline-block;
-     position: relative;
+     text-decoration: none;
+     color: inherit;
      
  }
-
+ .buttontop{
+ border: 1px solid black;
+ border-radius: 36px;
+ width: 100px;
+ height: 30px; 
+ padding-top: 10px;
+ }
+ .shadow{
+     box-shadow:inset white 2px 3px 0px 0px
+     ,inset gold 9px 50px 0px 0px  ;
+ }
+#createAccount{
+    display: grid;
+    width: 35%;
+    height: 400px;
+    grid-template-areas: "a a"
+                         "b h"
+                         "c h"
+                         "d ."
+                         "e ."
+                         "f ."
+                         "g .";
+    grid-template-rows: 12% 12% 12% 12% 12% 12% 16%;
+    grid-template-columns: 68% 28%;
+    gap: 4%;
+    margin: 150px auto;
+    font-family: 'Roboto', sans-serif;
+    
+                             
+}
+h2 {
+    grid-area: a;
+    font-size: 34px;
+    margin: 0px;
+}
 .google {
     grid-area: b;
  }
