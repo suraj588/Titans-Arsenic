@@ -38,7 +38,44 @@
      color: inherit;
      
  }
- .button{
+ .domshadow{
+     box-shadow: gold 0px 10px 0px 0px;
+     display: block;
+     font-size: 12px;
+     font-weight:bolder;
+     text-align: center;
+     text-decoration: none;
+     color: inherit;
+ }
+ .loginbtn{
+     background-color: teal;
+     border-radius: 36px;
+    width: 100px;
+    height: 30px; 
+    padding-top: 10px;
+    display: block;
+     font-size: 12px;
+     font-weight:bolder;
+     text-align: center;
+     text-decoration: none;
+     color: inherit;
+
+ }
+ .signbtn{
+    background-color:gold;
+    border-radius: 36px;
+    border: gold solid 2px;
+   width: 100px;
+   height: 30px; 
+   padding-top: 10px;
+   display: block;
+    font-size: 12px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;   
+ }
+ .buttontop{
  border: 1px solid black;
  border-radius: 36px;
  width: 100px;

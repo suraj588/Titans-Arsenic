@@ -16,37 +16,37 @@
                 <nav class="header_nav">
                     <div class="menu_nav">
                         <div>
-                            <a class="menu_nav_bloc" href="howitworks.html">
+                            <a class="menu_nav_bloc" id="hw" href="howitworks.html">
                              HOW IT WORKS
                             </a>
                         </div>
                         <div>
-                            <a class="menu_nav_bloc"  href="pricing.html">
+                            <a class="menu_nav_bloc" id="pr"  href="pricing.html">
                                  PRICING  
                             </a>
                         </div>
                         <div>
-                            <a class="menu_nav_bloc"  href="API.html">
+                            <a class="menu_nav_bloc" id="ap" href="API.html">
                                     API 
                             </a>
                         </div>
                         <div>
-                            <a class="menu_nav_bloc"  href="blog.html">
+                            <a class="menu_nav_bloc" id="bl" href="blog.html">
                                 BLOG
                             </a>
                         </div>
                         <div>
-                            <a class="menu_nav_bloc"  href="faq.html">
+                            <a class="menu_nav_bloc" id="fa"  href="faq.html">
                                 FAQ
                             </a>
                         </div>
                         <div>
-                            <a class="menu_nav_bloc buttontop"  href="login.html">
+                            <a class="menu_nav_bloc buttontop" id="lg"  href="login.html">
                                 Log In
                             </a>
                         </div>
                         <div>
-                            <a class="menu_nav_bloc buttontop shadow"  href="signup.html">
+                            <a class="menu_nav_bloc buttontop shadow" id="sg"  href="signup.html">
                                     Sign up
                             </a>
                         </div>
@@ -149,4 +149,51 @@
             </div>
         </div>
     </body>
+    <script>
+        var btn1 = document.getElementById("hw")
+        var btn2 = document.getElementById("pr")
+        var btn3= document.getElementById("ap")
+        var btn4 = document.getElementById("bl")
+        var btn5 = document.getElementById("fa")
+        var lgn = document.getElementById("lg")
+        var sgn = document.getElementById("sg")
+        function shadowgold(event){
+            var item = event.target;
+            item.setAttribute("class","domshadow")
+        }
+        function noshadow(event){
+            var item = event.target;
+            item.setAttribute("class","menu_nav_bloc")
+        }
+        function bgcolor1(event){
+            var item = event.target;
+            item.setAttribute("class","loginbtn")
+        }
+        function bgcolor11(event){
+            var item = event.target;
+            item.setAttribute("class","menu_nav_bloc buttontop")
+        }
+        function bgcolor2(event){
+            var item = event.target;
+            item.setAttribute("class","signbtn")
+        }
+        function bgcolor21(event){
+            var item = event.target;
+            item.setAttribute("class","menu_nav_bloc buttontop shadow")
+        }
+        btn1.addEventListener("mouseover",shadowgold)
+        btn1.addEventListener("mouseout",noshadow)
+        btn2.addEventListener("mouseover",shadowgold)
+        btn2.addEventListener("mouseout",noshadow)
+        btn3.addEventListener("mouseover",shadowgold)
+        btn3.addEventListener("mouseout",noshadow)
+        btn4.addEventListener("mouseover",shadowgold)
+        btn4.addEventListener("mouseout",noshadow)
+        btn5.addEventListener("mouseover",shadowgold)
+        btn5.addEventListener("mouseout",noshadow)
+        lgn.addEventListener("mouseover",bgcolor1)
+        lgn.addEventListener("mouseout",bgcolor11)
+        sgn.addEventListener("mouseover",bgcolor2)
+        sgn.addEventListener("mouseout",bgcolor21)
+    </script>
 </html>
