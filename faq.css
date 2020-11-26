@@ -1,0 +1,170 @@
+.header {
+    position: fixed;
+    background-color: white;
+    width:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #202c45;
+    
+ }
+ .header_container {
+     display: flex;
+     align-items: center;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-left: 100px;
+ }
+ .header_nav {
+     display: flex;
+     align-items: center;
+     width:80%;
+ }
+ .menu_nav {
+     display: flex;
+     width: 100%;
+     margin-left: 250px;
+     margin-right: 20px;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .menu_nav_bloc {
+     display: block;
+     font-size: 12px;
+     font-weight:bolder;
+     text-align: center;
+     text-decoration: none;
+     color: inherit;
+     
+ }
+ .buttontop{
+ border: 1px solid black;
+ border-radius: 36px;
+ width: 100px;
+ height: 30px; 
+ padding-top: 10px;
+ }
+ .shadow{
+     box-shadow:inset white 2px 3px 0px 0px
+     ,inset gold 9px 50px 0px 0px  ;
+ }
+.page_content {
+    display: flex;
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+.container_faq {
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+.panel {
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 35px 40px;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 1075px;
+}
+.panel_2 {
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1075px;
+}
+.heading1 {
+    font-weight: 500px;
+    margin: 0;
+    font-size: 35px;
+    line-height: 1.25;
+    letter-spacing: -.1px;
+    margin-top: 25px;
+}
+.heading3 {
+    font-size: 18px;
+    line-height: 1.25;
+    letter-spacing: -.1px;
+    margin-bottom: 1px;
+}
+.unorderList {
+    padding-left: 19px;
+    line-height: 1.45;
+    letter-spacing: -.1px;
+    margin-top: 1px;
+    color:teal;
+}
+.orderList {
+    padding-left: 19px;
+    line-height: 1.45;
+    letter-spacing: -.1px;
+    margin-top: 1px;   
+}
+#footerCover {
+    width: 100%;
+    height: 500px;
+    background-color: #313a45;
+}
+#footer {
+    width: 80%;
+    height: 60%;
+    margin: 10% auto;
+    background-color: #313a45;
+    font-family: 'Roboto', sans-serif;
+}
+#footerGrid {
+    display: grid;
+    width: 70%;
+    height: 90%;
+    grid-template-areas: "a b c d";
+                         
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 100%;
+    gap: 2%;
+    margin: 80px 0px 0px;
+}
+#footer>div,.icon {
+    float: left;
+}
+#footerGrid>div {
+    display: flex;
+    flex-flow: column wrap;
+}
+.boldWhite{
+    font-weight: 120;
+    font-size: 20px;
+}
+#footerGrid>div>:nth-child(1) {
+    color: white;
+}
+.railsware {
+    margin: 80px 100px;
+}
+.grayFont {
+    color: hsla(0,0%,100%,.53);
+    font-size: 15px;
+    line-height: 30px;
+}
+.blueLine{
+    width: 100%;
+    border-color: #0080b6;
+}
+.grayLine{
+    width: 100%;
+    border-color: hsla(0,0%,100%,.53);
+}
+.aboutMailtrap{
+    color: hsla(0,0%,100%,.53);
+    float: left;
+    width: 57%;
+    font-size: 14px;
+    margin: 12px 0px;
+}
