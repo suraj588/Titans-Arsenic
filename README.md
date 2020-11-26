@@ -19,4 +19,4 @@
 
 ### Login Page:
 - The input credentials and different ways to login.
-<img width="9669" alt ="loginpage" src = "https://github.com/suraj588/Titans-Arsenic/blob/main/resource/Screenshot%20(231).png?raw=true"/>
+<img width="669" alt ="loginpage" src = "https://github.com/suraj588/Titans-Arsenic/blob/main/resource/Screenshot%20(231).png?raw=true"/>
