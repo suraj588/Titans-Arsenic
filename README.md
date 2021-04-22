@@ -32,3 +32,5 @@
 ### Howitworks Page:
 - Mailtrap working procedure in different steps.
 <img width="669" alt ="howitworks page" src = "https://github.com/suraj588/Titans-Arsenic/blob/main/resource/Screenshot%20(233).png?raw=true"/>
+
+## Note: All the images and icons appearing in the project has been taken from https://www.mailtrap.io and from other internet sources.
