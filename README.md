@@ -33,4 +33,10 @@
 - Mailtrap working procedure in different steps.
 <img width="669" alt ="howitworks page" src = "https://github.com/suraj588/Titans-Arsenic/blob/main/resource/Screenshot%20(233).png?raw=true"/>
 
+### Contributors :two_men_holding_hands: 
+- <a style="width : 300px, display:block "  href = "https://github.com/DBharathkumarReddy">Bharath</a>    <img width="50" height="50" alt ="Bharath" src = "https://avatars.githubusercontent.com/u/73213991?v=4" />
+- <a style="width : 300px" href = "https://github.com/suraj588">Suraj  </a>  <img width="50" height="50" alt ="Suraj" src = "https://avatars.githubusercontent.com/u/73214004?v=4" />
+- <a style="width : 300px" href = "https://github.com/tejas170893">Tejas  </a>  <img width="50" height="50" alt ="Tejas" src = "https://avatars.githubusercontent.com/u/73213901?v=4" />
+
+
 ## Note: All the images and icons appearing in the project has been taken from https://www.mailtrap.io and from other internet sources.
