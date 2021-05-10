@@ -1,6 +1,5 @@
 # Cloning of  Mailtrap
- Mailtrap helps in email testing.
- Inspect and debug your email samples before delivering them to your customers.
+ Mailtrap is a test mail server solution that allows testing email notifications without sending them to the real users of your application.
  
  ## Technologies Used:
  
@@ -9,6 +8,7 @@
 - **JavaScript**
 - **Github**
 
+### Demo link : <a href = "https://suraj588.github.io/Titans-Arsenic/">Mailtrap</a>
 
 ### Home Page:
 - Overview of the mailtrap functionality and features of it.
